@@ -10,6 +10,8 @@
     entries.forEach(entry => {
       if(!entry.isIntersecting) {
         nav.classList.add("scrolled");
+      } else {
+        nav.classList.remove("scrolled");
       }
     });
   }, headerOptions);
