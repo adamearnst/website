@@ -1,4 +1,4 @@
-
+console.log("Updated script loaded!");
   const nav = document.querySelector("#nav");
   const header = document.querySelector("#header");
   
