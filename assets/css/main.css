@@ -2282,7 +2282,17 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background: #000000;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		padding: 1.5em 0 1.5em 0;
+		z-index: 1;
+		overflow: hidden;
+	}
+	#nav-scrolled {
+		background: rgba(0,0,0,0.6);
 		position: fixed;
 		top: 0;
 		left: 0;
