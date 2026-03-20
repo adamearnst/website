@@ -56,7 +56,7 @@ body {
 }
 
 mark {
-	background-color: #000000;
+	background-color: transparent;
 	color: inherit;
 }
 
@@ -2282,6 +2282,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
+		background: #000000
 		position: fixed;
 		top: 0;
 		left: 0;
