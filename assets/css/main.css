@@ -3136,3 +3136,20 @@ input, select, textarea {
 					}
 
 	}
+/* Default: scrolled state */
+#header {
+    background: #fff;
+}
+
+#nav ul li a {
+    color: #000;
+}
+
+/* Top of homepage (hero state) */
+#header.alt {
+    background: transparent;
+}
+
+#header.alt #nav ul li a {
+    color: #fff;
+}
