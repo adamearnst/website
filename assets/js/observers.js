@@ -11,4 +11,4 @@ const headerObserver = new IntersectionObserver(function(entries, headerObserver
   });
 }, headerOptions);
 
-headerObserver.observe(header)
+headerObserver.observe(header);
