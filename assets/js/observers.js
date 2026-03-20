@@ -7,7 +7,9 @@ const headerOptions = {
 
 const headerObserver = new IntersectionObserver(function(entries, headerObserver) {
   entries.forEach(entry => {
-    console.log(entry.target);
+    if(!entry.isIntersecting) {
+      nav.classList.add("scrolled");
+    }
   });
 }, headerOptions);
 
