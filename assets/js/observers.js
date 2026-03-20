@@ -1,5 +1,5 @@
 const nav = document.querySelector("nav");
-const header = document.querySelector("header");
+const header = document.querySelector("#header");
 
 const headerOptions = {
   threshold: 0  // triggers when the full header leaves the viewport
