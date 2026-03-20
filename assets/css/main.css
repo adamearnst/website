@@ -3137,8 +3137,4 @@ input, select, textarea {
 
 	}
 
-/* Force nav text to be white everywhere */
-#nav ul li a {
-    color: #fff !important;
-    opacity: 1 !important;
-}
+
