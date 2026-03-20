@@ -2351,6 +2351,23 @@ input, select, textarea {
 				#nav > ul > li > ul {
 					display: none;
 				}
+/* Homepage top (transparent header) */
+#header.alt #nav > ul > li > a,
+#header.alt #nav > ul > li > span {
+    color: #fff; /* white text on hero image */
+}
+
+/* Scrolled / normal state */
+#header:not(.alt) #nav > ul > li > a,
+#header:not(.alt) #nav > ul > li > span {
+    color: #000; /* dark text on white background */
+}
+
+/* Optional smooth transition */
+#nav > ul > li > a,
+#nav > ul > li > span {
+    transition: color 0.3s ease;
+}
 
 	.dropotron {
 		background: rgba(255, 255, 255, 0.975);
