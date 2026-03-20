@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   const nav = document.querySelector("#nav");
   const header = document.querySelector("#header");
+
+  console.log("Nav:", nav, "Header:", header);
   
   const headerOptions = {
     threshold: 0  // triggers when the full header leaves the viewport
