@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const nav = document.querySelector("nav");
+  const nav = document.querySelector("#nav");
   const header = document.querySelector("#header");
   
   const headerOptions = {
