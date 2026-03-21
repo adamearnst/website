@@ -2617,6 +2617,7 @@ input, select, textarea {
 				width: auto;
 				margin-right: -2em;
 				margin-bottom: 3em;
+				aspect-ratio: 4 / 3;
 			}
 
 			.carousel article p {
