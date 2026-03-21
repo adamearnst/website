@@ -44,7 +44,7 @@
 		});
 
 	// Scrolly.
-		$('.scrolly').scrolly();
+		$('.scrolly').scrolly({offset: -80});
 
 	// Nav.
 
