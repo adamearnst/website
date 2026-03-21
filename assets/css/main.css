@@ -2630,6 +2630,10 @@ input, select, textarea {
 				text-align: center;
 			}
 
+			.carousel header {
+			    text-align: center;
+			}
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
