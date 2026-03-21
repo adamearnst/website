@@ -2620,6 +2620,12 @@ input, select, textarea {
 				aspect-ratio: 4 / 3;
 			}
 
+			.carousel article .image img {
+			    width: 100%;
+			    height: 100%;
+			    object-fit: cover;
+			}
+
 			.carousel article p {
 				text-align: center;
 			}
