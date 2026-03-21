@@ -12,6 +12,15 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+
+	<script>
+	fetch('/components/navbar.html')
+	  .then(response => response.text())
+	  .then(data => {
+		document.getElementById('navbar').innerHTML = data;
+	  });
+	</script>
+	
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
 
