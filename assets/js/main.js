@@ -45,7 +45,7 @@
 
 	// Scrolly.
 		$('.scrolly').scrolly({
-	    offset: 80 // height of header
+	    offset: -88px // height of header
 	});
 
 	// Nav.
