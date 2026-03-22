@@ -72,8 +72,7 @@
 					resetScroll: true,
 					resetForms: true,
 					target: $body,
-					visibleClass: 'navPanel-visible',
-					height: auto
+					visibleClass: 'navPanel-visible'
 				});
 
 	// Carousels.
