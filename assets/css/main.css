@@ -1638,7 +1638,7 @@ input, select, textarea {
 				}
 
 				.row > .hide-mobile {
-					display: none;
+					display: none !important;
 				}
 
 				.row.gtr-0 {
